@@ -31,8 +31,8 @@ assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)
 ### CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.min.js"></script>
-<script src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.min.js"></script>
+<script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
 ```
 
 ### Setup
