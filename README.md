@@ -4,10 +4,10 @@
 
 Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
 
-*IMPORTANT* When you add link, image, URL etc. don't add the protocol e.g: 
+**IMPORTANT**: When you add link, image URLs don't add the protocol e.g: 
 
-	GOOD `//google.com` 
-	BAD `https://google.com`
+	//google.com [GOOD]
+	https://google.com [BAD]
 
 ## Usage
 
