@@ -1,8 +1,6 @@
 # DOMAssembler
 
-🧬 Quickly create HTML DOM structure out of template string.
-
-> Tiny HTML DOM assembler (less than 1KB).
+> Tiny HTML DOM assembler (**less than 1KB**).
 
 Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
 
@@ -10,7 +8,19 @@ Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
 
 DOM Assembler is a tiny, intitive, flexible and easy to use (take a look the modifiers down the page).
 
-The example below will create an alert message using the Bootstrap framework.
+### Setup
+
+Simply include and import the script into your document as modules.
+
+```html
+<script type="module" src="./dist/assembler.js"></script>
+<script type="module">
+  import { assembler } from './dist/assembler.js';
+  assembler(chain, targetId);
+</script>
+```
+
+The example below will create an alert message box using the [Bootstrap](https://getbootstrap.com/docs/4.4/components/alerts/) framework.
 
 ```js
 assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)+p(Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.)+hr+p.mb-0(Whenever you need to, be sure to use margin utilities to keep things nice and tidy.)', '#container');
@@ -35,17 +45,6 @@ assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)
 <script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
 ```
 
-### Setup
-
-Simply include and import the script into your document.
-
-```html
-<script type="module" src="./dist/assembler.js"></script>
-<script type="module">
-  import { assembler } from './dist/assembler.js';
-  assembler(chain, targetId);
-</script>
-```
 
 ### Modifiers
 
