@@ -4,7 +4,7 @@
 
 > Tiny HTML DOM assembler (less than 1KB).
 
-Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/10/) @ jsFiddle.
+Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
 
 ## Usage
 
@@ -56,7 +56,7 @@ Simply include and import the script into your document.
 * `(...)` - add text node inside the element.
 * `{name:value,...}` - add additional properties to the element.
 
-## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/10/)
+## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/)
 
 ## Contribute
 
