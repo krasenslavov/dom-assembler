@@ -4,7 +4,7 @@
 
 > Tiny HTML DOM assembler (less than 1KB).
 
-Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/6/) @ jsFiddle.
+Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/10/) @ jsFiddle.
 
 ## Usage
 
@@ -20,11 +20,11 @@ assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)
 
 ```html
 <div id="kntbwzhg85q" class="alert alert-success mt-3 ">
-	<h4 id="kwl2p59w72p" class="alert-heading ">Well done!</h4>
-	<p id="km3896amduho" class="">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p
-	>
-	<hr id="k4yw3k7ebspl" class="">
-	<p id="ki9drkb68dx" class="mb-0 ">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  <h4 id="kwl2p59w72p" class="alert-heading ">Well done!</h4>
+  <p id="km3896amduho" class="">Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p
+  >
+  <hr id="k4yw3k7ebspl" class="">
+  <p id="ki9drkb68dx" class="mb-0 ">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>
 ```
 
@@ -56,7 +56,7 @@ Simply include and import the script into your document.
 * `(...)` - add text node inside the element.
 * `{name:value,...}` - add additional properties to the element.
 
-## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/6/)
+## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/10/)
 
 ## Contribute
 
