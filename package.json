@@ -1,0 +1,23 @@
+{
+  "name": "dom-assembler",
+  "version": "1.0.0",
+  "description": "🧬 Tiny HTML DOM assembler (in less than 1KB).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "prod": "npm run production",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krasenslavov/assembler.git"
+  },
+  "keywords": ["html", "dom", "tiny", "create"],
+  "author": "Krasen Slavov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krasenslavov/assembler/issues"
+  },
+  "homepage": "https://github.com/krasenslavov/assembler#readme"
+}
