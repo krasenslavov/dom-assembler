@@ -2,7 +2,7 @@
 
 > Tiny HTML DOM assembler (**less than 1KB**).
 
-Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
+Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/) @ jsFiddle.
 
 **IMPORTANT**: When you add link, image URLs don't add the protocol e.g: 
 
@@ -60,7 +60,7 @@ assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)
 * `(...)` - add text node inside the element.
 * `{name:value,...}` - add additional properties to the element.
 
-## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/)
+## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/)
 
 ## Contribute
 

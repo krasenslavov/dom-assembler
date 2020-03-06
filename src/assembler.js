@@ -58,7 +58,6 @@ export function assembler(chain, container) {
       }
     });
     if (parent) {
-      console.log(props);
       parent.appendChild(
         o.assign(
           d.createElement(tagName),
