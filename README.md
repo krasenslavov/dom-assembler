@@ -4,6 +4,11 @@
 
 Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/25/) @ jsFiddle.
 
+*IMPORTANT* When you add link, image, URL etc. don't add the protocol e.g: 
+
+	GOOD `//google.com` 
+	BAD `https://google.com`
+
 ## Usage
 
 DOM Assembler is a tiny, intitive, flexible and easy to use (take a look the modifiers down the page).
