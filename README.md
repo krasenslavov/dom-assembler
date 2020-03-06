@@ -4,6 +4,8 @@
 
 > Tiny HTML DOM assembler (less than 1KB).
 
+Quick [demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/6/) @ jsFiddle.
+
 ## Usage
 
 DOM Assembler is a tiny, intitive, flexible and easy to use (take a look the modifiers down the page).
@@ -24,6 +26,13 @@ assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)
 	<hr id="k4yw3k7ebspl" class="">
 	<p id="ki9drkb68dx" class="mb-0 ">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
 </div>
+```
+
+### CDN
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.min.js"></script>
+<script src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
 ```
 
 ### Setup
@@ -47,7 +56,7 @@ Simply include and import the script into your document.
 * `(...)` - add text node inside the element.
 * `{name:value,...}` - add additional properties to the element.
 
-## Demo
+## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/6/)
 
 ## Contribute
 
