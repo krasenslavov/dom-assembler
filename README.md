@@ -36,7 +36,7 @@ The example below will create an alert message box using the [Bootstrap](https:/
 let html = assembler('div.alert.alert-success.mt-3{role:alert}>h4.alert-heading(Well done!)+p(Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.)+hr+p.mb-0(Whenever you need to, be sure to use margin utilities to keep things nice and tidy.)');
 ```
 
-... and return a document fragment which can be appended into any the target HTML element, e.g:
+The above will return a document fragment which can be appended into any target HTML element, e.g:
 
 ```js
 document.querySelector('#container').appendChild(html);
@@ -54,17 +54,18 @@ This is the HTML markup that will be generated and displayed.
 </div>
 ```
 
-### ES Module
+### ES6 Module
 
 ```html
-<script type="module" src="./dist/assembler.js"></script>
 <script type="module">
-  import { assembler } from './dist/assembler.js';
+  import { assembler } from './dist/assembler.mod.js';
   assembler('div>h1.heading(Title)+p(Enter text...)+button.btn(Visit...){type:submit}');
 </script>
 ```
 
-### CommonJS
+### CommonJS / NodeJS
+
+	$ npm install --save dom-assembler
 
 ```js
 import assembler from 'assembler';
@@ -74,15 +75,15 @@ let html = assembler('div>h1.heading(Title)+p(Enter text...)+button.btn(Visit...
 ## CDN
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.min.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.mod.js"></script>
 <script type="module" src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.js"></script>
-<script type="module" src="https://cdn.jsdelivr.net/npm/dom-assembler/dist/assembler.mjs"></script>
 ```
 
 ```html
-<script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
+<script src="https://unpkg.com/dom-assembler/dist/assembler.min.js"></script>
+<script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.mod.js"></script>
 <script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.js"></script>
-<script type="module" src="https://unpkg.com/dom-assembler/dist/assembler.mjs"></script>
 ```
 
 ## [Demo](https://jsfiddle.net/krasenslavov/ys2dkrfz/)
@@ -94,4 +95,3 @@ Found a bug or want to propose some improvements or fixes? Fork the project, mak
 ## License
 
 (c) Krasen Slavov | Code released under the [MIT License](https://opensource.org/licenses/MIT).
-

@@ -1,5 +1,5 @@
-/*! dom-assembler v1.0.0 | (c) Krasen Slavov | https://krasenslavov.com/ */
-export default function(chain) {
+/*! dom-assembler v1.0.1 | (c) Krasen Slavov | https://krasenslavov.com/ */
+export default function assembler(chain) {
 
   const o = Object,
         d = document,

@@ -1,4 +1,4 @@
-/*! dom-assembler v1.0.0 | (c) Krasen Slavov | https://krasenslavov.com/ */
+/*! dom-assembler v1.0.1 | (c) Krasen Slavov | https://krasenslavov.com/ */
 module.exports = function(chain) {
 
   const o = Object,
