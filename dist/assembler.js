@@ -1,5 +1,5 @@
 /*! dom-assembler v1.0.0 | (c) Krasen Slavov | https://krasenslavov.com/ */
-const assembler = function (chain) {
+module.exports = function(chain) {
 
   const o = Object,
         d = document,
