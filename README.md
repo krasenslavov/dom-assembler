@@ -63,13 +63,24 @@ This is the HTML markup that will be generated and displayed.
 </script>
 ```
 
-### CommonJS / NodeJS
+### NodeJS
 
 	$ npm install --save dom-assembler
 
 ```js
-import assembler from 'assembler';
-let html = assembler('div>h1.heading(Title)+p(Enter text...)+button.btn(Visit...){type:submit}');
+const jsdom = require('jsdom');
+const assembler = require('dom-assembler');
+
+const { JSDOM } = jsdom;
+const dom = new JSDOM(`<!doctype html><div id="container"></div>`);
+
+let html = assembler('div>h1.heading(Title)+p(Enter text...)+button.btn(Visit...){type:submit}', dom);
+
+dom.window.document.querySelector('#container').appendChild(html);
+
+console.log(dom.window.document.body.innerHTML);
+
+// Expected output: <div id="container"><div id="krhyzhzx10jm" class=""><h1 id="kka0odej9osj" class="heading "></h1><p id="k785vjvcbs6e" class=""></p><button id="k2q1o06pqg3" class="btn " type="submit"></button></div></div>
 ```
 
 ## CDN

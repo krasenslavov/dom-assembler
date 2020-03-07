@@ -1,8 +1,8 @@
 /*! dom-assembler v1.0.1 | (c) Krasen Slavov | https://krasenslavov.com/ */
-module.exports = function assembler(chain) {
+module.exports = function assembler(chain, dom) {
 
   const o = Object,
-        d = document,
+        d = dom.window.document,
         f = d.createDocumentFragment();
 
   chain = chain || 'div';
