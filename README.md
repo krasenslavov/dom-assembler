@@ -1,4 +1,4 @@
-# DOMAssembler
+# DomAssembler
 
 > Tiny HTML DOM assembler (**less than 1KB**).
 
