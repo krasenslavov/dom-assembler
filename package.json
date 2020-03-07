@@ -1,23 +1,39 @@
 {
+  "version": "1.0.1",
   "name": "dom-assembler",
-  "version": "1.0.0",
+  "repository": "krasenslavovd/dom-assembler",
   "description": "🧬 Tiny HTML DOM assembler (in less than 1KB).",
-  "main": "index.js",
-  "scripts": {
-    "dev": "npm run development",
-    "prod": "npm run production",
-    "watch": "npm run development -- --watch",
-    "watch-poll": "npm run watch -- --watch-poll"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krasenslavov/assembler.git"
-  },
-  "keywords": ["html", "dom", "tiny", "create"],
-  "author": "Krasen Slavov",
+  "unpkg": "dist/assembler.min.js",
+  "module": "dist/assembler.mod.js",
+  "main": "dist/assembler.js",
+  "types": "sort.d.ts",
   "license": "MIT",
+  "homepage": "https://github.com/krasenslavov/assembler#readme",
   "bugs": {
     "url": "https://github.com/krasenslavov/assembler/issues"
   },
-  "homepage": "https://github.com/krasenslavov/assembler#readme"
+  "author": {
+    "name": "Krasen Slavov",
+    "email": "slavovkrasen@gmail.com",
+    "url": "https://krasenslavov.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": ["html", "dom", "tiny", "create","assembler"],
+  "devDependencies": {
+    "bundt": "1.0.0",
+    "esm": "3.2.25",
+    "tap-spec": "5.0.0",
+    "tape": "4.9.1"
+  }
 }
